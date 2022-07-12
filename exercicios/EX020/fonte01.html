@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', sans-serif;
+        
+        /*Medidas Absolutas
+        cm, mm, in, px (recomendado), pt, pc
+        
+        Medidas Relativas
+        em [recomendado] (referente ao M maiúsculo), ex (altura x), rem, vw, vh, %
+        16px geralmente é = 1em
+        */
+            font-size: 1em;
+             /* weight (peso)
+            - lighter normal bold bolder;*/
+        }
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            font-family: 'Work Sans', sans-serif;
+            font-weight: normal;
+            font-size: 3em;
+            font-style: normal;
+            obs.:width (largura) height (altura) */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci omnis quas eos nihil! Iure itaque veritatis nihil ullam est quasi amet! Fuga laboriosam laborum sequi quasi suscipit placeat magnam ratione. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis veniam laborum obcaecati repellendus inventore minus maxime, natus dolorum asperiores animi doloribus neque optio ut pariatur libero ullam provident tempore incidunt?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui molestiae laborum provident obcaecati atque similique, veniam aut minima quisquam exercitationem. Dolore quas voluptatum placeat perferendis eius cum maiores ducimus blanditiis.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt magni asperiores ad vel rerum fugiat doloremque deleniti quisquam reiciendis commodi optio, officiis dignissimos. Consequatur ex iste aperiam exercitationem? Adipisci.</p>
+</body>
+</html>

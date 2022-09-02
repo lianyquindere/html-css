@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
@@ -21,6 +22,15 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(2n){ /* odd ou even podem ser usados como ímpar ou par para zebrar a tabela também*/
+            background-color: lightgray;
         }
         td.num{
             text-align: right;
